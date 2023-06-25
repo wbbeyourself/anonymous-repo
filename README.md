@@ -84,10 +84,10 @@ python book_summary.py   --book_files data/book/EnglishBook/The_Old_Man_and_the_
 
 Take the blockchain meeting as example, whose content cost 37k tokens, as a demo example:
 ```bash
-python meeting_summary.py --meeting_ids 26231372_区块链技术的应用前景 --no_scm
+python meeting_summary.py --meeting_ids 26231372_区块链技术的应用前景
 ```
 
-## Evaluation Dataset
+# 📝 Evaluation Dataset
 
 Data files are in `data` folder.
 
@@ -101,3 +101,14 @@ Data files are in `data` folder.
 
 Evaluation dataset statistics. 2M means 2 miillion token count.
 
+# 📊 Evaluation Results
+
+- [Chinese Long-term Dialogue QA results](results/markdown_results/long_term_dialogue_zh.md)
+- [English Long-term Dialogue QA results](results/markdown_results/long_term_dialogue_en.md)
+- [Book Summarization results](results/markdown_results/book_summary.md)
+- [Meeting Summarization Results](results/markdown_results/meeting_summary_zh.md)
+
+
+# 👍 Contributing
+
+We welcome contributions and suggestions!
